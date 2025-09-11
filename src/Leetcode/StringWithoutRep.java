@@ -1,7 +1,8 @@
 package Leetcode;
-
 import java.util.Arrays;
 import java.util.HashMap;
+
+// Difficulty: Medium
 
 public class StringWithoutRep {
     public static class Solution {

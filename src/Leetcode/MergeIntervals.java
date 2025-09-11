@@ -2,6 +2,8 @@ package Leetcode;
 
 import java.util.*;
 
+// Difficulty: Medium
+
 public class MergeIntervals {
     public static class Solution {
         public int[][] merge(int[][] intervals) {

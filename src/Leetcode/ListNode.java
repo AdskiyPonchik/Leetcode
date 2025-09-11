@@ -2,6 +2,8 @@ package Leetcode;
 
 import java.util.ArrayList;
 
+// Difficulty: Medium
+
 public class ListNode {
     int val;
     ListNode next;

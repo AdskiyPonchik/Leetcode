@@ -10,6 +10,8 @@ Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
 Total profit is 4 + 3 = 7.
  */
 
+// Difficulty: Medium
+
 public class MaxProfit {
     public static class Solution {
         public int maxProfit(int[] prices) {

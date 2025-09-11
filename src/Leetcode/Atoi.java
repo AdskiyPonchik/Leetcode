@@ -2,6 +2,8 @@ package Leetcode;
 
 
 // TODO: Completed
+// Difficulty: Medium
+
 public class Atoi {
     public static class Solution{
         public int myAtio(String s){
