@@ -1,15 +1,15 @@
 package Leetcode;
 
-import java.util.Arrays;
+//Difficulty: Easy
 
 public class FindTheDifference {
-    class Solution {
+    public static class Solution {
         //best solution
         public char findTheDifference(String s, String t){
-            int sum = 0;
-            for(char c:s.toCharArray()) sum+=c;
-            for(char c:t.toCharArray()) sum-=c;
-            return (char)sum;
+            int xor = 0;
+            for(char c:s.toCharArray()) xor^=c;
+            for(char c:t.toCharArray()) xor^=c;
+            return (char)xor;
         }
         /*
         public char findTheDifference(String s, String t) {
