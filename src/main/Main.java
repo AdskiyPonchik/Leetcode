@@ -1,9 +1,13 @@
 package main;
-import Leetcode.Atoi.Solution;
+
+import Leetcode.AreNumbersAscending;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.myAtio("1337c0d3"));
+        AreNumbersAscending test = new AreNumbersAscending();
+        System.out.println(test.areNumbersAscending("hello world 5 x 5"));
+        return;
     }
 }
