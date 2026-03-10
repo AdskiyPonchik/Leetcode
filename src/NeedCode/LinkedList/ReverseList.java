@@ -3,14 +3,6 @@ package NeedCode.LinkedList;
 import java.util.List;
 
 public class ReverseList {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
-
     // Вспомогательный метод для создания списка из массива
     public static ListNode fromArray(int[] arr) {
         if (arr == null || arr.length == 0) return null;
