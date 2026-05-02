@@ -1,0 +1,22 @@
+# Java
+*.class
+*.log
+
+# Build tools
+target/
+build/
+out/
+.gradle/
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
