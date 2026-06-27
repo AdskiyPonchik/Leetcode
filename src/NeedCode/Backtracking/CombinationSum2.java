@@ -23,6 +23,7 @@ public class CombinationSum2 {
         }
         for(int i = start; i < candidates.length; i++){
             if (i > start && candidates[i] == candidates[i - 1]) continue;
+            if (candidates[i] > target) break;
             current.add(candidates[i]);
 
             backtrack(i+1, candidates, target-candidates[i], current, result);
